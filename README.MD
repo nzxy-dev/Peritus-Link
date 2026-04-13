@@ -52,19 +52,21 @@ The thumbnail system is easily customizable. If a specific URL fails to provide 
 This file contains *all* your cards, easily readable using any text editor. The file located alongside your executable—named "data.peritus"—is all you need to keep your personal notes safe; this single file is sufficient to safeguard all your information. **The default internal structure of this database is as follows:**
 
 `For Settings:`
-
-//CONFIG
+```
+CONFIG
 THUMB_MODE:
 ENDCONFIG
+```
 
 `And for Cards:`
-
-//BEGIN
+```
+BEGIN
 URL:
 TITLE:
 DESC:
 TAGS:
 END
+```
 
 
 
