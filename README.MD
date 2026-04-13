@@ -54,17 +54,17 @@ This file contains *all* your cards, easily readable using any text editor. The 
 `For Settings:`
 
 //CONFIG
-//THUMB_MODE:
-//ENDCONFIG
+THUMB_MODE:
+ENDCONFIG
 
 `And for Cards:`
 
 //BEGIN
-//URL:
-//TITLE:
-//DESC:
-//TAGS:
-//END
+URL:
+TITLE:
+DESC:
+TAGS:
+END
 
 
 
