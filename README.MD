@@ -44,24 +44,29 @@ Small Tips and Tricks:
 #Removing a Password:
 If, for any reason, you no longer wish to password-protect your app, simply navigate to the directory where the app is stored and delete the "User.Protectoris" file; the app will automatically unlock.
 
-#Adding or Editing Custom Thumbnails: The thumbnail system is easily customizable. If a specific URL fails to provide a thumbnail, or if you simply prefer to create or edit one yourself, all you need to do is place the image you wish to use as a thumbnail into the "thumbs" folder located alongside the executable file (.exe). The image must be in JPG format, and you must rename it to exactly match the Title you assigned to your card or note. Close and then reopen the app, and the thumbnail will load automatically. The thumbnail system is semi-autonomous; it does not require constant maintenance. For example, if you wish to copy your app—along with just your "notes database"—to another device, or if you only have the "notes database" file itself, simply place the database file in the same folder as the executable. Upon launching the app, it will automatically retrieve thumbnails for all your URLs (provided they have them), download them using the respective titles of your cards, and simultaneously load those images as thumbnails. #Card/Note Database — Where your settings and all your notes are stored:
-This file contains *all* your cards, easily readable using any text editor. The file located alongside your executable—named "data.peritus"—is all you need to keep your personal notes safe; this single file is sufficient to safeguard all your information. The default internal structure of this database is as follows:
-For Settings:
---------------------------------------------------
-CONFIG
-THUMB_MODE:
-ENDCONFIG
-________________________________
-And for Cards:
------------------------------------------------------
-BEGIN
-URL:
-TITLE:
-DESC:
-TAGS:
-END
+**Adding or Editing Custom Thumbnails:**
+The thumbnail system is easily customizable. If a specific URL fails to provide a thumbnail, or if you simply prefer to create or edit one yourself, all you need to do is place the image you wish to use as a thumbnail into the "thumbs" folder located alongside the executable file (.exe). The image must be in JPG format, and you must rename it to exactly match the Title you assigned to your card or note. Close and then reopen the app, and the thumbnail will load automatically. The thumbnail system is semi-autonomous; it does not require constant maintenance. For example, if you wish to copy your app—along with just your "notes database"—to another device, or if you only have the "notes database" file itself, simply place the database file in the same folder as the executable. Upon launching the app, it will automatically retrieve thumbnails for all your URLs (provided they have them), download them using the respective titles of your cards, and simultaneously load those images as thumbnails.
 
-______________________________________________
+**Card/Note Database:** 
+— Where your settings and all your notes are stored:
+This file contains *all* your cards, easily readable using any text editor. The file located alongside your executable—named "data.peritus"—is all you need to keep your personal notes safe; this single file is sufficient to safeguard all your information. **The default internal structure of this database is as follows:**
+
+`For Settings:`
+
+//CONFIG
+//THUMB_MODE:
+//ENDCONFIG
+
+`And for Cards:`
+
+//BEGIN
+//URL:
+//TITLE:
+//DESC:
+//TAGS:
+//END
+
+
 
 If you would like to find more applications like this one,
 You can follow us on itch.io, X (Twitter), and YouTube.
